@@ -130,12 +130,19 @@ img {
 
 /*  Герой */
 .background {
-  background-image: url(../images/hero-background.jpg);
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-background.jpg);
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .hero {
   padding-top: 200px;
@@ -143,8 +150,6 @@ img {
   text-align: center;
   max-width: 1600px;
   color: var(--two-accent-color);
-  background-position: center;
-  background-size: cover;
 }
 .hero-text {
   width: 696px;
