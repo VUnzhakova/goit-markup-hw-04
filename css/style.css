@@ -107,7 +107,13 @@ img {
 /*  Шапка контакты */
 .contact-icon {
   margin-right: 10px;
-  padding: 0;
+  fill: var(--secondary-color);
+}
+.contact-icon:focus {
+  fill: var(--accent-color);
+}
+.contact-icon:hover {
+  fill: var(--accent-color);
 }
 
 .contact-link {
