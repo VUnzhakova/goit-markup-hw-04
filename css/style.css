@@ -194,6 +194,20 @@ img {
 
 /*  Наши преимущества */
 
+.benefit-img {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+.benefit-icon {
+  background-position: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
