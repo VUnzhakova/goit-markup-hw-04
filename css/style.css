@@ -114,8 +114,7 @@ img {
 }
 .contact-link .item {
   display: flex;
-  align-content: center;
-}
+  align-content: center;}
 
 .contact-icon {
   margin-right: 10px;
