@@ -114,14 +114,14 @@ img {
 }
 .contact-link .item {
   display: flex;
-  align-items: center;
+  align-content: center;
 }
 
 .contact-icon {
   margin-right: 10px;
   fill: var(--secondary-color);
 }
-.item:focus .contact-icon {
+.item .contact:focus .contact-icon {
   fill: var(--accent-color);
 }
 .item:hover .contact-icon {
@@ -139,12 +139,15 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-content: center;
 }
-
 .contact-link .contact:hover,
 .contact-link .contact:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
+
 
 /*  Герой */
 .background {
