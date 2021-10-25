@@ -458,9 +458,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 50%;}
 
-}
+
 .footer-social-icon {
   fill: var(--background-primary);
 }
@@ -518,11 +518,14 @@ img {
   margin-bottom: 30px;
   cursor: pointer;
 }
+
+.gal-link { text-decoration: none;}
+
 .gal-element:hover,
 .gal-element:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+    1px 4px 6px rgba(0, 0, 0, 0.16);}
+
 
 .gal-element:nth-child(3n) {
   margin-right: 0px;
@@ -531,6 +534,7 @@ img {
   margin-bottom: 0;
 }
 .project-name {
+  color: var(--main-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
