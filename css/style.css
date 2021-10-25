@@ -149,7 +149,7 @@ img {
 
 
 /*  Герой */
-.background {
+.hero {
   background-color: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -163,12 +163,9 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  max-width: 1600px;
   color: var(--two-accent-color);
 }
 .hero-text {
@@ -204,14 +201,15 @@ img {
 /*  Наши преимущества */
 
 .benefit-img {
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
   display: flex;
-  align-items: center;
-  padding-left: 100px;
+  
 }
 .benefit-icon {
   background-position: center;
