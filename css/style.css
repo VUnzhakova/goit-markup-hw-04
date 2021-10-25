@@ -111,8 +111,11 @@ img {
 .contact-link {
   display: flex;
   margin-left: auto;
-
+  align-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .contact-link .item {
   display: flex;
   align-content: center;}
@@ -141,6 +144,8 @@ img {
   text-decoration: none;
   display: flex;
   align-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contact-link .contact:hover,
 .contact-link .contact:focus {
